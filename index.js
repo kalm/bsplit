@@ -25,7 +25,6 @@ function write(bytes=[]) {
 		if (bytes[i] === this.charCode) this.flush();
 		else this.acc.push(bytes[i]);
 	}
-	//this.flush();
 }
 
 function end(bytes) {
